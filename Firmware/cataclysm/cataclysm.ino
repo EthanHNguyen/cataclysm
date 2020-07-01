@@ -1,14 +1,17 @@
-#include "cataclym_power.h"
+#include "CataclysmPower.h"
 
-catacylsm_power pwr;
+CataclysmPower pwr;
 
-void setup() {
-  // put your setup code here, to run once:
+
+void setup() 
+{
   pwr.begin();
 }
 
-void loop() {
-  // put your main code here, to run repeatedly:
+void loop()
+{
   pwr.isCharging();
   pwr.getBatteryVoltage();
+
+  // print this information to my watch screen
 }
