@@ -3089,31 +3089,6 @@ and Bypass Capacitors</text>
 <pinref part="U4" gate="G$1" pin="SCL"/>
 </segment>
 </net>
-<net name="A5/TIA" class="0">
-<segment>
-<wire x1="142.24" y1="71.12" x2="137.16" y2="71.12" width="0.1524" layer="91"/>
-<label x="137.16" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="AD5242" gate="G$1" pin="W1"/>
-</segment>
-<segment>
-<pinref part="C10" gate="G$1" pin="2"/>
-<wire x1="109.22" y1="154.94" x2="116.84" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="154.94" x2="116.84" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="154.94" x2="116.84" y2="165.1" width="0.1524" layer="91"/>
-<junction x="116.84" y="154.94"/>
-<label x="116.84" y="165.1" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="C15" gate="G$1" pin="1"/>
-<wire x1="119.38" y1="144.78" x2="116.84" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="TIA" gate="G$1" pin="OUT"/>
-<wire x1="114.3" y1="144.78" x2="116.84" y2="144.78" width="0.1524" layer="91"/>
-<junction x="116.84" y="144.78"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="6"/>
-<wire x1="88.9" y1="25.4" x2="96.52" y2="25.4" width="0.1524" layer="91" style="longdash"/>
-<label x="96.52" y="25.4" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="PD.C" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="PD.C"/>
@@ -3249,17 +3224,29 @@ and Bypass Capacitors</text>
 <junction x="238.76" y="68.58"/>
 </segment>
 </net>
-<net name="D30/LED.CTRL" class="0">
-<segment>
-<pinref part="AD5171" gate="G$1" pin="A"/>
-<wire x1="236.22" y1="73.66" x2="238.76" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="73.66" x2="238.76" y2="81.28" width="0.1524" layer="91"/>
-<label x="238.76" y="81.28" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
+<net name="A6/TIA" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="5"/>
 <wire x1="88.9" y1="22.86" x2="96.52" y2="22.86" width="0.1524" layer="91" style="longdash"/>
 <label x="96.52" y="22.86" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="142.24" y1="71.12" x2="137.16" y2="71.12" width="0.1524" layer="91"/>
+<label x="137.16" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="AD5242" gate="G$1" pin="W1"/>
+</segment>
+<segment>
+<pinref part="C10" gate="G$1" pin="2"/>
+<wire x1="109.22" y1="154.94" x2="116.84" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="154.94" x2="116.84" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="154.94" x2="116.84" y2="165.1" width="0.1524" layer="91"/>
+<junction x="116.84" y="154.94"/>
+<label x="116.84" y="165.1" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="C15" gate="G$1" pin="1"/>
+<wire x1="119.38" y1="144.78" x2="116.84" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="TIA" gate="G$1" pin="OUT"/>
+<wire x1="114.3" y1="144.78" x2="116.84" y2="144.78" width="0.1524" layer="91"/>
+<junction x="116.84" y="144.78"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -3407,6 +3394,19 @@ and Bypass Capacitors</text>
 <wire x1="180.34" y1="17.78" x2="182.88" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="XTAL2" gate="G$1" pin="2"/>
 <pinref part="U4" gate="G$1" pin="OSCI"/>
+</segment>
+</net>
+<net name="D29/LED.CTRL" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="6"/>
+<wire x1="88.9" y1="25.4" x2="96.52" y2="25.4" width="0.1524" layer="91" style="longdash"/>
+<label x="96.52" y="25.4" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="AD5171" gate="G$1" pin="A"/>
+<wire x1="236.22" y1="73.66" x2="238.76" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="73.66" x2="238.76" y2="81.28" width="0.1524" layer="91"/>
+<label x="238.76" y="81.28" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
